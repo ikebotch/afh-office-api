@@ -1,0 +1,64 @@
+## Ignore build results
+bin/
+obj/
+out/
+
+## Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## Ignore Rider project files
+.idea/
+*.sln.iml
+
+## VS Code settings
+.vscode/
+.vscode/*
+
+## Ignore tests results
+TestResults/
+*.log
+
+## Ignore dotnet CLI artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Ignore ASP.NET static files
+wwwroot/*.cache
+wwwroot/*.zip
+wwwroot/*.min.js
+wwwroot/*.min.css
+
+## NuGet Packages
+*.nupkg
+packages/
+.nuget/
+*.snupkg
+
+## Others
+*.db
+*.sqlite
+*.bak
+*.tmp
+*.pdb
+
+# DotCover
+*.dotCover
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# env files
+.env
+.env.*
